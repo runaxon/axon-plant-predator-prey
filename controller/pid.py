@@ -2,7 +2,6 @@
 Discrete-time PID controller.
 """
 
-
 class PIDController:
     def __init__(self, kp, ki, kd, setpoint, dt, max_rate=10.0, min_rate=0.0):
         self.kp = kp
