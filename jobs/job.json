@@ -1,0 +1,15 @@
+{
+    "scenario_id": "100_time_units",
+    "patient_ids": [["lion-gazelle", 1]],
+    "controller": {
+        "kp": {"min": 0.0, "max": 5.0, "step": 0.05},
+        "ki": {"min": 0.0, "max": 1.0, "step": 0.05},
+        "kd": {"min": 0.0, "max": 1.0, "step": 0.05},
+        "setpoint": 0.667,
+        "max_rate": 2.0,
+        "min_rate": 0.0
+    },
+    "evaluator": {
+        "target": 0.667
+    }
+}
